@@ -9,13 +9,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/re-knownout/base-controllerr.git",
+        "url": "git+https://github.com/re-knownout/base-controller.git",
         "directory": "src/package"
     },
     "bugs": {
-        "url": "https://github.com/re-knownout/base-controllerr/issues"
+        "url": "https://github.com/re-knownout/base-controller/issues"
     },
-    "homepage": "https://github.com/re-knownout/base-controllerr#readme",
+    "homepage": "https://github.com/re-knownout/base-controller#readme",
     "devDependencies": {
         "@babel/core": "^7.18.2",
         "@types/jest": "^27.5.0",
