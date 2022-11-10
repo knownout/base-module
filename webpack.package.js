@@ -9,7 +9,7 @@ const packageConfig = {
         path: path.resolve(__dirname, "package", "dist"),
         filename: "[name].js",
         library: {
-            name: "BaseController",
+            name: "BaseModule",
             type: "umd"
         }
     },

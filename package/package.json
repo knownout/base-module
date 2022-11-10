@@ -1,6 +1,6 @@
 {
     "name": "@knownout/base-module",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "author": "Alexandr <re-knownout> knownout@hotmail.com",
     "license": "MIT",
     "description": "Base module with data and state",
