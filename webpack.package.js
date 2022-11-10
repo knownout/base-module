@@ -23,9 +23,9 @@ const packageConfig = {
     stats: "minimal",
 
     entry: {
-        "BaseController": path.resolve(__dirname, "package", "BaseController"),
-        "_StateController": path.resolve(__dirname, "package", "_StateController"),
-        "_DataController": path.resolve(__dirname, "package", "_DataController")
+        "BaseModule": path.resolve(__dirname, "package", "BaseModule"),
+        "modules/StateModule": path.resolve(__dirname, "package", "modules", "StateModule"),
+        "modules/DataModule": path.resolve(__dirname, "package", "modules", "DataModule")
     },
 
     plugins: [],
@@ -56,13 +56,13 @@ const packageConfig = {
         ]
     },
 
-    externals: {
-        "mobx": {
-            commonjs: "mobx",
-            commonjs2: "mobx",
-            amd: "mobx"
-        }
-    },
+    // externals: {
+    //     "mobx": {
+    //         commonjs: "mobx",
+    //         commonjs2: "mobx",
+    //         amd: "mobx"
+    //     }
+    // },
 
     optimization: {
         minimize: true,

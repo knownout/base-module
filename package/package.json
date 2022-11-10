@@ -1,11 +1,11 @@
 {
-    "name": "@knownout/base-controller",
-    "version": "0.1.1",
+    "name": "@knownout/base-module",
+    "version": "0.2.1",
     "author": "Alexandr <re-knownout> knownout@hotmail.com",
     "license": "MIT",
-    "description": "Basic state & data mobx controller",
-    "main": "dist/BaseController.js",
-    "typings": "dist/BaseController.d.ts",
+    "description": "Base module with data and state",
+    "main": "dist/BaseModule.js",
+    "typings": "dist/BaseModule.d.ts",
     "keywords": [
         "lib",
         "utils",
@@ -17,17 +17,14 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/re-knownout/base-controller.git",
+        "url": "git+https://github.com/re-knownout/base-module.git",
         "directory": "src/package"
     },
     "publishConfig": {
         "access": "public"
     },
     "bugs": {
-        "url": "https://github.com/re-knownout/base-controller/issues"
+        "url": "https://github.com/re-knownout/base-module/issues"
     },
-    "homepage": "https://github.com/re-knownout/base-controller#readme",
-    "dependencies": {
-        "mobx": "^6.6.2"
-    }
+    "homepage": "https://github.com/re-knownout/base-module#readme"
 }

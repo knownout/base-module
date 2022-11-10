@@ -1,21 +1,21 @@
 {
-    "name": "@knownout/base-controller",
+    "name": "@knownout/base-module",
     "version": "0.0.0",
     "author": "Alexandr <re-knownout> knownout@hotmail.com",
     "license": "MIT",
-    "description": "Basic state & data mobx controller",
+    "description": "Base module with data and state",
     "scripts": {
         "build:package": "webpack --config webpack.package.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/re-knownout/base-controller.git",
+        "url": "git+https://github.com/re-knownout/base-module.git",
         "directory": "src/package"
     },
     "bugs": {
-        "url": "https://github.com/re-knownout/base-controller/issues"
+        "url": "https://github.com/re-knownout/base-module/issues"
     },
-    "homepage": "https://github.com/re-knownout/base-controller#readme",
+    "homepage": "https://github.com/re-knownout/base-module#readme",
     "devDependencies": {
         "@babel/core": "^7.18.2",
         "@types/jest": "^27.5.0",

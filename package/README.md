@@ -78,11 +78,11 @@ If you want to use only the state controller or only the data controller,
 then you can simply use separate controllers from package dist:
 
 ```ts
-import DataController from "@knonwout/base-controller/dist/_DataController";
+import DataController from "@knonwout/base-module/dist/_DataController";
 
 // or
 
-import StateController from "@knonwout/base-controller/dist/_StateController";
+import StateController from "@knonwout/base-module/dist/_StateController";
 ```
 
 re-knownout - https://github.com/re-knownout/
